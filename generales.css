@@ -1,0 +1,132 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+body{
+    font-family: Arial, Helvetica, sans-serif;
+    line-height: 1.5em;
+
+}
+header{
+    background-color: #2d3646;
+    overflow: hidden; 
+    width: 100%;
+}
+header nav ul li{
+    list-style: none;
+    float: left;
+}
+header nav ul a{
+    text-decoration: none;
+    padding: 15px 20px 15px 20px;
+    display: inline-block;
+    color: grey;
+}
+header nav ul li a:hover{
+    text-decoration: none;
+    padding: 15px 20px 15px 20px;
+    display: inline-block;
+    background-color: white;
+    color: #2d3646;
+}
+footer{
+    width: 30%;
+    float: left;
+    padding: 30px;
+}
+footer ul li{
+width: 50%;
+float: center;
+background-color: #2d3646;
+padding: 50px;
+}
+footer ul li {
+    border-radius: 0px;
+    background-color: #2d3646;
+    -webkit-transition: 1s linear;
+    transition: 1s linear;
+}
+footer ul li{
+    border-radius: 20px;
+}
+footer ul li{
+    text-decoration: none;
+    color: black;
+}
+footer ul li{
+    list-style: none;
+    margin-bottom: 20px;
+    border-bottom: 1px solid black
+}
+footer{
+    /*clear: both;*/
+    
+    width: 100%;
+    float: left;
+}
+footer ul li p{
+    width: 500px;
+    height: 100px;
+    display: block;
+    margin: auto;
+}
+footer ul li main{
+    /*clear: both;*/
+    width: 100%;
+    float: center;
+}
+footer ul li main img{
+    width: 500px;
+    height: 500px;
+    display: block;
+    margin: auto;
+}
+aside{
+    width: 100%;
+    clear: both;
+    padding: 40px;
+}
+aside ul li{
+    border-radius: 0px;
+    background-color: #2d3646;
+    -webkit-transition: 1s linear;
+    transition: 1s linear;
+}
+aside ul li{
+    border-radius: 20px;
+}
+aside{
+/*clear: both;*/
+
+width: 100%;
+float: right;
+}
+aside ul li{
+    list-style: none;
+    margin-bottom: 20px;
+    border-bottom: 1px solid black 
+}
+aside ul li{
+width: 50%;
+float: right;
+background-color: #2d3646;
+padding: 50px;
+}
+aside ul li p{
+width: 500px;
+height: 150px;
+display: block;
+margin: auto;
+}   
+aside ul li main{
+    /*clear: both;*/
+    width: 100%;
+    float: right;
+}
+aside ul li main img{
+    width: 500px;
+    height: 500px;
+    display: block;
+    margin: auto;
+}
